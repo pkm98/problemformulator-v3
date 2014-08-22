@@ -1,0 +1,111 @@
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+ 
+  stroke-width: 1.5px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.forsearch{
+    position:relative;
+    margin-left:-22px;
+    top:-13px;
+    z-index:2;
+}
+
+.form-inline{
+    white-space: nowrap;
+}
+
+.entity-dialog{
+    width: 100%;
+}
+
+input.entity-input {
+    width: 82%;
+    height: 2em;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+button.entity-input {
+    width: 3em;
+    height: 2.7em;
+    margin-left:0;
+    border:0;
+}
+
+.entity-group {
+    background: #efefef;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a0a0a0;
+    margin-bottom: 15px;
+    padding-bottom: 1em;
+}
+
+hr{
+    border-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+
+.name{
+    display: block;
+    min-width: 10%;
+    max-width: 70%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    cursor: text;
+}
+
+.clear {
+    clear: both;
+}
+
+#canvas {
+    background-color: #eaeaea;
+    border-style: solid;
+}
+
+.headline .headline-in {
+	background: lightgray;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.headline .headline-in h4 {
+	display: inline;
+}
+
+.headline .headline-in a {
+	margin-left: 10px;
+	background: url("./../img/minus-icon.png") no-repeat 0px 2px;
+	text-indent: -9999px;
+	display: inline-block;
+	background-size: 15px 15px;
+	height: 17px;
+	width: 15px;
+}
+
+.headline .headline-in a.plus {
+	background: url("./../img/plus-icon.png") no-repeat 0px 2px;
+	background-size: 15px 15px;
+}

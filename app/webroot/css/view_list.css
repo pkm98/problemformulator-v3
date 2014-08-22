@@ -1,0 +1,260 @@
+h2{
+    font-size: 140%;
+}
+
+.download-csv{
+    margin-top: -100px;
+}
+
+body{
+    font-size: 75%;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.forsearch{
+    position:relative;
+    margin-left:-22px;
+    top:-13px;
+    z-index:2;
+}
+
+.form-inline{
+    white-space: nowrap;
+}
+
+.entity-dialog{
+    width: 100%;
+}
+
+input.entity-input {
+    width: 82%;
+    height: 2em;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+button.entity-input {
+    width: 2.1em;
+    height: 2.7em;
+    margin-left:0;
+    border:0;
+}
+
+.entrity-group {
+    background: #efefef;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a0a0a0;
+    margin-bottom: 15px;
+    padding-bottom: 1em;
+}
+
+hr{
+    border-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+li.entity {
+    cursor: pointer;
+    display: block;
+    margin-left: -25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    /*padding-right: 8px;*/
+    padding-top: 0px;
+    padding-bottom: 1px;
+    min-height: 30px;
+    list-style-type: none;
+	border-left: 1px solid rgba(236, 234, 255, 1);
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color: #b0b0b0; */
+    background-color: #fff;
+}
+
+.pull-right {
+    font-weight: bold;
+    margin: 5px 5px 0 0;
+}
+
+.pull-left {
+    margin-top: 8px;
+}
+
+.name{
+    display: inline-block;
+    min-width: 10%;
+    max-width: 68%;
+	margin: 5px 0 5px 5px;
+    cursor: text;
+}
+
+.clear {
+    clear: both;
+}
+
+.sup {
+    font-size: 0.6em;
+    margin-top: 1px;
+    margin-left: -0.5em;
+}
+
+.alt-decomp {
+    border-style: solid;
+    border-width: 1px;
+    width: 44%;
+    float: left;
+}
+
+.alt-decomp > li {
+    margin: 0;
+}
+
+/* Jquery-sortable CSS */
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    z-index: 2000;
+}
+
+li.active {
+    background-color: rgb(137, 203, 255);
+	border-right: 1px solid rgb(137, 203, 255);
+}
+
+#requirement li.active.requirement {
+    background-color: #eaeaea;
+}
+#function li.active.function {
+    background-color: #eaeaea;
+}
+#artifact li.active.artifact {
+    background-color: #eaeaea;
+}
+#behavior li.active.behavior {
+    background-color: #eaeaea;
+}
+#issue li.active.issue {
+    background-color: #eaeaea;
+}
+
+li.placeholder {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+
+#requirement li.placeholder.requirement:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    left: -2em;
+    top: -4px;
+    border: 5px solid transparent;
+    border-left-color: black; 
+    border-right: none;
+}
+#function li.placeholder.function:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    left: -2em;
+    top: -4px;
+    border: 5px solid transparent;
+    border-left-color: black; 
+    border-right: none;
+}
+#artifact li.placeholder.artifact:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    left: -2em;
+    top: -4px;
+    border: 5px solid transparent;
+    border-left-color: black; 
+    border-right: none;
+}
+#behavior li.placeholder.behavior:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    left: -2em;
+    top: -4px;
+    border: 5px solid transparent;
+    border-left-color: black; 
+    border-right: none;
+}
+#issue li.placeholder.issue:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    margin-top: -5px;
+    left: -2em;
+    top: -4px;
+    border: 5px solid transparent;
+    border-left-color: black; 
+    border-right: none;
+}
+
+/*Tutorial Prompt*/
+#tutorial_prompt{
+	min-height: 100px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	width: 82%;
+	color: #000000;
+	border: 2px solid #51C5FF;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	font-size: medium;
+	padding: 5px 0;
+}
+#promptBox{
+	margin: 25px 0 8px;
+	color: #D00000;
+}
+#promptButton{
+	clear: both;
+	cursor: pointer;
+	width: 70px;
+	height: 30px;
+	border-radius: 4px;
+	background-color: #5CD2D2;
+	border: none;
+	text-align: center;
+	line-height: 10px;
+	color: #FFFFFF;
+	margin: 5px 50px;
+}
+#promptButton.decisionButton{
+	width: 45px;
+	margin: 5px;
+}
+#promptButton.disabled{
+	background-color: #CFCFCF;
+}
